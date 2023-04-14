@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*utilities*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.dashed{
+    border: 1px dashed black;
+}
+/*fine utilities*/
+
+/*inizio header*/
+.sfondo-nav{
+    background-color: lightblue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.riga-nav{
+    width: 55%;
+    height: 30px;
+    background-color: orange;
+    display: flex;
+
+}
+
+
+.col-nav-1,.col-nav-3{
+    width: 25%;
+    padding: 5px;
+}
+
+
+.col-nav-2{
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+/*fine header*/
+
+/*inizio main*/
+/*prima parte*/
+.sfondo-blu{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore-rosa{
+    width: 45%;
+    background-color: pink;
+    height: 400px;
+}
+/*fine prima parte*/
+
+/*inizio seconda parte*/
+.sfondo-bianco{
+    height: 400px;
+    display: flex;
+}
+
+.riga-main-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.col-lightblue,.col-pink{
+    height: 300px;
+    width: 30%;
+}
+
+.col-lightblue{
+    background-color: lightblue;
+}
+
+.col-pink{
+    background-color: pink;
+    height: 300px;
+    width: 25%;
+}
+/*fine seconda parte*/
+
+/*inizio terza parte*/
+.sfondo-grigio{
+    height: 400px;
+    display: flex;
+    background-color: lightgrey;
+}
+/*fine terza parte*/
+
+/*inizio quinta parte*/
+.sfondo-grigiochiaro{
+    background-color: lightgray;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore-verde{
+    width: 55%;
+    background-color: green;
+    height: 600px;
+}
+
+/*fine quinta parte*/
+
+/*fine main*/
+
+/*inizio footer*/
+/*utilities footer*/
+.sfondo-footer{
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+}
+/*fine utilities*/
+/*inizio prima parte*/
+.footer-1{
+    height: 400px;
+}
+
+.riga-footer-1{
+    width: 55%;
+    display: flex;
+    height: 300px;
+}
+
+.col-red{
+    background-color: red;
+    height: 380px;
+    width: 30%;
+}
+
+.col-lightgreen{
+    background-color: lightgreen;
+    height: 380px;
+    width: 17.5%;
+    border: 1px dashed white;
+}
+/*fine prima parte*/
+
+/*inizio seconda parte*/
+
+.footer-2{
+    height: 80px;
+    align-items: flex-end;
+}
+
+.riga-footer-2{
+    width: 55%;
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-footer-1,.col-footer-2{
+    height: 20px;
+    width: 8%;
+    background-color: orange;
+    font-size: 15px;
+    text-align: center;
+}
+/*fine seconda parte*/
+/*fine footer*/
