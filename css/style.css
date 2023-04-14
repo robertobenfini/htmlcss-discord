@@ -135,10 +135,26 @@ button{
 
 /*inizio terza parte*/
 .sfondo-grigio{
-    height: 400px;
-    display: flex;
-    background-color: lightgrey;
+    background-color: rgb(238, 238, 238);
 }
+.container-3{
+    width: 1170px;
+    margin: 0 auto;
+    height: 400px;
+
+}
+
+.wave{
+    width: 100%;
+    opacity: 0.05;
+}
+
+.wave-2{
+    width: 100%;
+    opacity: 0.05;
+    transform: scale(-1);
+}
+
 /*fine terza parte*/
 
 /*inizio quinta parte*/
