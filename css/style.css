@@ -18,7 +18,7 @@ button{
 /*fine utilities*/
 
 /*inizio header*/
-.container-1{
+.container-nav{
     height: 60px;
     width: 1170px;
     display: flex;
@@ -66,8 +66,9 @@ button{
     background-size: cover;
 }
 
-.container-2{
-    height: 500px;
+.container-1{
+    width: 1170px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +76,6 @@ button{
 
 .riga-jumbo{
     width: 45%;
-    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -95,7 +95,7 @@ button{
 .jumbo-button{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin: 20px 0 100px 0;
 }
 .button-jumbo-1, .button-jumbo-2{
     padding: 10px;
@@ -111,32 +111,31 @@ button{
 /*fine prima parte*/
 
 /*inizio seconda parte*/
-.sfondo-bianco{
-    height: 400px;
+.container-2{
     display: flex;
+    margin: 0 auto;
+    width: 1170px;
 }
+
 
 .riga-main-1{
     display: flex;
-    width: 100%;
+    width: 55%;
     justify-content: center;
     align-items: center;
-    height: 400px;
-}
 
-.col-lightblue,.col-pink{
-    height: 300px;
-    width: 30%;
 }
 
 .col-lightblue{
-    background-color: lightblue;
+    width: 30%;
 }
 
 .col-pink{
-    background-color: pink;
-    height: 300px;
     width: 25%;
+}
+
+.testo-main-2{
+
 }
 /*fine seconda parte*/
 
