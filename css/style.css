@@ -98,7 +98,7 @@ button{
     margin: 20px 0 100px 0;
 }
 .button-jumbo-1, .button-jumbo-2{
-    padding: 10px;
+    padding: 14px;
     margin: 10px;
 }
 
@@ -112,7 +112,6 @@ button{
 
 /*inizio seconda parte*/
 .container-2{
-    display: flex;
     margin: 0 auto;
     width: 1170px;
 }
@@ -135,23 +134,22 @@ button{
 
 /*inizio terza parte*/
 .sfondo-grigio{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(235, 235, 235);
 }
 .container-3{
     width: 1170px;
     margin: 0 auto;
-    height: 400px;
 
 }
 
 .wave{
     width: 100%;
-    opacity: 0.05;
+    opacity: 0.08;
 }
 
 .wave-2{
     width: 100%;
-    opacity: 0.05;
+    opacity: 0.08;
     transform: scale(-1);
 }
 
@@ -159,17 +157,22 @@ button{
 
 /*inizio quinta parte*/
 .sfondo-grigiochiaro{
-    background-color: lightgray;
-    height: 700px;
+    background-color: rgb(235, 235, 235);
+}
+
+.contenitore-5{
+    width: 1170px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contenitore-verde{
-    width: 55%;
-    background-color: green;
-    height: 600px;
+.riga-verde{
+    text-align: center;
+}
+.testo-main-5,.h-main-5{
+    padding-top: 20px;
 }
 
 /*fine quinta parte*/
