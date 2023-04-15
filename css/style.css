@@ -98,7 +98,7 @@ button{
     margin: 20px 0 100px 0;
 }
 .button-jumbo-1, .button-jumbo-2{
-    padding: 14px;
+    padding: 12px;
     margin: 10px;
 }
 
@@ -160,7 +160,7 @@ button{
     background-color: rgb(235, 235, 235);
 }
 
-.contenitore-5{
+.container-5{
     width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -175,48 +175,71 @@ button{
     padding-top: 20px;
 }
 
+.button-main-5{
+    padding: 12px;
+    margin: 30px;
+    color: white;
+    background-color: rgb(75, 75, 246);
+}
 /*fine quinta parte*/
 
 /*fine main*/
 
 /*inizio footer*/
-/*utilities footer*/
+/*inizio prima parte*/
 .sfondo-footer{
     background-color: rgb(47, 47, 47);
-    display: flex;
-    justify-content: center;
 }
-/*fine utilities*/
-/*inizio prima parte*/
-.footer-1{
-    height: 400px;
+
+.container-footer-1{
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    justify-content: space-around;
 }
 
 .riga-footer-1{
-    width: 55%;
+    
     display: flex;
-    height: 300px;
 }
 
-.col-red{
-    background-color: red;
-    height: 380px;
-    width: 30%;
+
+.col-footer-ul{
+    margin: 70px 0 20px 0;
+    display: flex;
 }
 
-.col-lightgreen{
-    background-color: lightgreen;
-    height: 380px;
-    width: 17.5%;
-    border: 1px dashed white;
+
+.ul-footer{
+    list-style-type: none;
+}
+
+.h-li-footer{
+    color: #3161e0;
+    font-size: 20px;
+}
+.li-footer{
+    margin-top: 10px;
+    color: white;
+}
+
+.bandiera-italia{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.social{
+    margin-right: 50px;
 }
 /*fine prima parte*/
 
 /*inizio seconda parte*/
 
-.footer-2{
+.container-footer-2{
     height: 80px;
     align-items: flex-end;
+    display: flex;
+    justify-content: center;
 }
 
 .riga-footer-2{
