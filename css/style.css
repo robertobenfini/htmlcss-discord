@@ -5,6 +5,9 @@
 }
 
 /*utilities*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 button{
     border-radius: 20px;
@@ -12,9 +15,6 @@ button{
     border: none;
 }
 
-.dashed{
-    border: 1px dashed black;
-}
 /*fine utilities*/
 
 /*inizio header*/
@@ -144,6 +144,7 @@ button{
 .wave{
     width: 100%;
     opacity: 0.08;
+    display: flex;
 }
 
 .wave-2{
